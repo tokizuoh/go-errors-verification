@@ -1,5 +1,7 @@
 package p2
 
-import "errors"
+import (
+	"github.com/tokizuoh/go-errors-verification/myerror"
+)
 
-var ErrInternal = errors.New("Internal error")
+var ErrInternal = myerror.New("Internal error")
